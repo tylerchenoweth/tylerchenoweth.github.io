@@ -1,0 +1,16 @@
+html, body {
+    background-color: gold;
+}
+
+h1 {
+    text-align: center;
+    color: gray;
+    
+}
+
+img {
+    position: relative;
+    margin: auto;
+    display: block;
+    border: 3px solid black;
+}
