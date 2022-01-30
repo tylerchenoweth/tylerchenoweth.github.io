@@ -81,6 +81,8 @@ let freezeChurchill = () => {
     leftButton.removeEventListener('click', moveLeft);
     rightButton.removeEventListener('click', moveRight);
     centerButton.removeEventListener('click', moveCenter);
+
+    churchill.style.backgroundColor = "#bfd3f8";
 }
 
 // this is also used to declare all the events
@@ -93,6 +95,8 @@ let unfreezeChurchill = () => {
     leftButton.addEventListener('click', moveLeft);
     rightButton.addEventListener('click', moveRight);
     centerButton.addEventListener('click', moveCenter);
+
+    churchill.style.backgroundColor = "cornflowerblue";
 }
 
 
