@@ -23,7 +23,8 @@ let pos = 0;
 let posMove = 10;
 
 let applyAngle = () => {
-    churchill.style.rotate = `${deg}deg`;
+    //churchill.style.rotate = `${deg}deg`;
+    churchill.style.webkitTransform = `rotate(${deg}deg)`//`${deg}deg`;
     //churchill.style.backgroundColor = 'blue';
     displayAngle();
 }

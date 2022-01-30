@@ -31,6 +31,8 @@ img {
     width: 200px;
 
     position: relative;
+
+    /*-webkit-transform: rotate(90deg);*/
 }
 
 
